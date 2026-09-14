@@ -1,0 +1,24 @@
+{
+  "previewPort": 3000,
+  "healthPath": "/",
+  "startCommand": "docker compose -f docker-compose.base44.yml up -d",
+  "secrets": [
+    {
+      "name": "JWT_SECRET",
+      "description": "Signing secret for JWT access tokens (backend). Auto-generated dev placeholder; replace for production.",
+      "requiredAtBoot": true,
+      "generatedForDevelopment": true
+    },
+    {
+      "name": "JWT_REFRESH_SECRET",
+      "description": "Signing secret for JWT refresh tokens (backend). Auto-generated dev placeholder; replace for production.",
+      "requiredAtBoot": true,
+      "generatedForDevelopment": true
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "description": "Optional. Only needed if AI_PROVIDER is set to 'openai' for real AI summaries. Defaults to 'mock' (local deterministic summary).",
+      "requiredAtBoot": false
+    }
+  ]
+}
