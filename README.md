@@ -1,4 +1,4 @@
-# CommHQ — Le Messager Technique Sécurisé
+# Syntra— Le Messager Technique Sécurisé
 
 > Application de chat d'entreprise organisée par canaux thématiques, avec rendu natif du
 > Markdown, des blocs de code et de la coloration syntaxique, enrichie d'un **bot IA** qui
